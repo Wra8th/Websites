@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+<title>Deathfued Server</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+h3{
+  color: white;
+}
+/* Full height image header */
+.text {
+  color: red;
+  font-size: 300%;
+  font-family: Impact, Charcoal, sans-serif;
+}
+.text4{
+  color: gold;
+}
+.text2 {
+  color: black;
+  font-size: 200%;
+}
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("/w3images/mac.jpg");
+  min-height: 100%;
+}
+.w3-container1 {
+  background-image: url("https://images.alphacoders.com/553/553145.jpg"); /* The image used */
+  background-color: #000000; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  background-blend-mode: screen; /* Resize the background image to cover the entire container */
+}
+.w3-bar .w3-button {
+  padding: 16px;
+}
+.text3{
+color: white;
+border: 1px;
+
+}
+.table{
+  color: red;
+  font-size: 150%;
+  font-family: "Lucida Console", Courier, monospace;
+  height: 250px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  background-blend-mode: screen; /* Resize the background image to cover the entire container */
+}}
+</style>
+<body class="w3-container1">
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <img src="https://media.discordapp.net/attachments/697684326111903816/705090498259583116/82f5fa71064157.png?width=315&height=466" alt="LOGO" style="width:2%">
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+      <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
+      <a href="#pricing" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> PRICING</a>
+      <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
+  <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">PRICING</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+</nav>
+<!-- About Section -->
+<div class="w3-container" style="padding:128px 16px" id="about">
+  <h3 class="w3-center text">Deathfued</h3>
+  <h3 class="w3-center text">We are Hosting</h3>
+</div>
+<!-- Team Section -->
+<div class="w3-container" style="padding:128px 16px" id="team">
+  <h3 class="w3-center">THE TEAM</h3>
+  <p class="w3-center w3-large">The ones who runs this company</p>
+  <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <div class="w3-container">
+          <h3 class="text4">Armaan Hunter</h3>
+          <p class="w3-opacity text3">CEO & Founder</p>
+          <p class="text3">The Leader who brought us together and founded this company</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <div class="w3-container">
+          <h3 class="text4">Wra8th</h3>
+          <p class="w3-opacity text3">Art Director</p>
+          <p class="text3">The Awesome creator that made this website</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <div class="w3-container">
+          <h3 class="text4">Silvano</h3>
+          <p class="w3-opacity text3">Moderator</p>
+          <p class="text3">The one who helped build the server</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card text3">
+        <div class="w3-container">
+          <h3 class="text4">Firefox</h3>
+          <p class="w3-opacity text3">Moderator</p>
+          <p class="text3">Our full time moderators who ensure security and prosperity in the servers</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="w3-container w3-center w3-dark-grey" style="padding:128px 16px" id="pricing">
+  <h3>PRICING</h3>
+  <p class="w3-large" >Choose a pricing plan that fits your needs.</p>
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-third w3-section">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">DM 24/7</li>
+          <h2 class="w3-wide">$ 1</h2>
+          <span class="w3-opacity">per month</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-black w3-padding-large"><a href="C:\Users\yashl\OneDrive\Documents\Deathfued server\Main.html">Sign Up</a></button>
+        </li>
+      </ul>
+    </div>
+    <div class="w3-third">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-red w3-xlarge w3-padding-48">Retake 24/7</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">$ 1</h2>
+          <span class="w3-opacity">per month</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-black w3-padding-large"><a href="C:\Users\yashl\OneDrive\Documents\Deathfued server\Main.html">Sign Up</a></button>
+        </li>
+      </ul>
+    </div>
+    <div class="w3-third w3-section">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">PUG 24/7</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">$ 1</h2>
+          <span class="w3-opacity">per month</span>
+        </li>
+          <button class="w3-button w3-black w3-padding-large"><a href="C:\Users\yashl\OneDrive\Documents\Deathfued server\Main.html">Sign Up</a></button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div style="padding:128px 16px">
+<table class="table">
+  <thead class="thead-light">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Server</th>
+      <th scope="col">Link</th>
+      <th scope="col">Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>24/7 Retake server</td>
+      <td><a href="#">link</a></td>
+      <td>Active</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>24/7 DM server</td>
+      <td><a href="">link</a></td>
+      <td>Closed</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>24/7 PUG server</td>
+      <td><a href="#">link</a></td>
+      <td>Closed</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<!-- Contact Section -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+  <h3 class="w3-center">CONTACT</h3>
+  <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
+  <div style="margin-top:48px">
+    <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Mumbai, India</p>
+    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +00 151515</p>
+    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: mail@mail.com</p>
+    <br>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-black" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 container ">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="Jumbotron text">
+    <ul>
+      <p><a href="https://discord.gg/qBST2uq">Our Discord</a></p>
+    </ul>
+     <ul>
+      <p><a href="https://steamcommunity.com/groups/thebetrayel">Our Steam Group</a></p>
+    </ul>   
+  </div>
+  <p class="text4 container">
+    Website Created By Yash 'Wra8th' Lodhiya
+  </p><!-- I mean i am not being payed so this is all i get -->
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+</body>
+</html>
+<!-- 'God's in his heaven, all is right with the world' -->
+<!-- ps: if you think its a bad website dont blame it on me blame on my boss who trashed all my ideas -->
